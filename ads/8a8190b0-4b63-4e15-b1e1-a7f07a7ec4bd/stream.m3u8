@@ -3,8 +3,6 @@
 #EXT-X-TARGETDURATION:8
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-DISCONTINUITY-SEQUENCE:0
-#EXT-X-DISCONTINUITY
 #EXTINF:8.333333,
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/video_segment_000.ts
 #EXTINF:5.533333,

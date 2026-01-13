@@ -10,8 +10,13 @@ https://indranirajendran.github.io/multilingual-ads-test/content/audio_en_seg2.t
 
 ## --- AD AUDIO (Tamil) ---
 #EXT-X-DISCONTINUITY
-#EXTINF:30.0,
-https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta.m3u8
+## Ad Audio Segments (Inlined from audio_ta.m3u8)
+#EXTINF:6.016000,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_000.ts
+#EXTINF:6.016000,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_001.ts
+#EXTINF:0.802667,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_002.ts
 #EXT-X-DISCONTINUITY
 
 ## CONTENT AUDIO RESUME
