@@ -22,7 +22,7 @@ https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1
 #EXT-X-DISCONTINUITY
 ## Important: Point to the video sub-manifest from your ad
 #EXTINF:30.0,
-https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/stream.m3u8
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/ad_master.m3u8
 #EXT-X-DISCONTINUITY
 
 ## --- RESUME CONTENT ---
