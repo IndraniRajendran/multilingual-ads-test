@@ -1,0 +1,38 @@
+<VAST xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST" version="4.2">
+<Ad id="8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd" sequence="1">
+<InLine>
+<AdSystem version="1.0">Multilingual Ad Server</AdSystem>
+<AdTitle>Multilingual Ad</AdTitle>
+<Impression>
+<![CDATA[ https://example.com/impression?adId=8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd ]]>
+</Impression>
+<Creatives>
+<Creative id="creative-8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd" sequence="1" adId="8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd">
+<Linear>
+<Duration>00:00:30</Duration>
+<MediaFiles>
+<MediaFile delivery="streaming" type="application/x-mpegURL" width="1920" height="1080">
+<![CDATA[ http://localhost:8000/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/ad_master.m3u8 ]]>
+</MediaFile>
+<MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080">
+<![CDATA[ http://localhost:8000/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://example.com/clickthrough ]]>
+</ClickThrough>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+<Extensions>
+<Extension type="Mezzanine">
+<Mezzanine delivery="progressive" type="video/mp4">
+<![CDATA[ http://localhost:8000/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
+</Mezzanine>
+</Extension>
+</Extensions>
+</InLine>
+</Ad>
+</VAST>
