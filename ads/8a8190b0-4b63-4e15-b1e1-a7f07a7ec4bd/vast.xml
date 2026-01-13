@@ -12,10 +12,10 @@
                 <Duration>00:00:30</Duration>
                 <MediaFiles>
                 <MediaFile delivery="streaming" type="application/x-mpegURL" width="1920" height="1080">
-                <![CDATA[ https://indranirrajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/ad_master.m3u8 ]]>
+                <![CDATA[ https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/ad_master.m3u8 ]]>
                 </MediaFile>
                 <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080">
-                <![CDATA[ https://indranirrajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
+                <![CDATA[ https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
                 </MediaFile>
                 </MediaFiles>
                 <VideoClicks>
@@ -29,7 +29,7 @@
             <Extensions>
                 <Extension type="Mezzanine">
                     <Mezzanine delivery="progressive" type="video/mp4">
-                    <![CDATA[ https://indranirrajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
+                    <![CDATA[ https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/original-1768263824005-ad.mp4 ]]>
                     </Mezzanine>
                 </Extension>
             </Extensions>
