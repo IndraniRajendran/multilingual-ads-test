@@ -1,0 +1,32 @@
+#EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+
+## --- CONTENT AUDIO 1 (Segments 0-2) ---
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_0.ts
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_1.ts
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_2.ts
+
+## --- AD AUDIO (English) ---
+#EXT-X-DISCONTINUITY
+#EXTINF:6.016000,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_000.ts
+#EXTINF:5.994667,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_001.ts
+#EXTINF:1.962667,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_002.ts
+#EXT-X-DISCONTINUITY
+
+## --- CONTENT AUDIO 2 (Resume from Segment 3) ---
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_3.ts
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_4.ts
+#EXTINF:3.989,
+../audio/1_stereo_128000/hls/segment_5.ts
+#EXT-X-ENDLIST
