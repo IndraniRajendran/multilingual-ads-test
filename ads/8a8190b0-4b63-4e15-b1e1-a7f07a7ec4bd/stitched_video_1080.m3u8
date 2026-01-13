@@ -1,24 +1,23 @@
 #EXTM3U
-#EXT-X-VERSION:3
+#EXT-X-VERSION:6
 #EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 
-## --- CONTENT START (60 Seconds) ---
-## Replace these with your actual content .ts URLs if known
+## --- CONTENT SECTION (First 20 Seconds) ---
 #EXTINF:10.0,
-https://example.com/path/to/content_1080_seg1.ts
+https://indranirajendran.github.io/multilingual-ads-test/content/video_1080_seg1.ts
 #EXTINF:10.0,
-https://example.com/path/to/content_1080_seg2.ts
+https://indranirajendran.github.io/multilingual-ads-test/content/video_1080_seg2.ts
 
-## --- AD INSERTION ---
+## --- AD SECTION ---
 #EXT-X-DISCONTINUITY
-## We point directly to your ad's video sub-playlist
+## We point to your ad's video playlist
 #EXTINF:30.0,
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/stream.m3u8
 #EXT-X-DISCONTINUITY
 
 ## --- CONTENT RESUME ---
 #EXTINF:10.0,
-https://example.com/path/to/content_1080_seg3.ts
+https://indranirajendran.github.io/multilingual-ads-test/content/video_1080_seg3.ts
 #EXT-X-ENDLIST

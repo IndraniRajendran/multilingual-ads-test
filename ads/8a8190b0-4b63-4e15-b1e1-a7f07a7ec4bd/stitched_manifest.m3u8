@@ -1,10 +1,12 @@
 #EXTM3U
-#EXT-X-VERSION:5
+#EXT-X-VERSION:6
+#EXT-X-INDEPENDENT-SEGMENTS
 
 ## --- AUDIO GROUPS ---
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="English",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="en",URI="stitched_audio_en.m3u8"
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",NAME="Tamil",DEFAULT=NO,AUTOSELECT=YES,LANGUAGE="ta",URI="stitched_audio_ta.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="stitched_audio_en.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",LANGUAGE="ta",NAME="Tamil",DEFAULT=NO,AUTOSELECT=YES,URI="stitched_audio_ta.m3u8"
 
-## --- VIDEO STREAM (1080p) ---
+## --- VIDEO STREAM ---
+## We use the 'High' profile codec string here so the player can handle the ad
 #EXT-X-STREAM-INF:BANDWIDTH=9728000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="audio"
-stitched_video_1080.m3u8
+stitched_video_main.m3u8
