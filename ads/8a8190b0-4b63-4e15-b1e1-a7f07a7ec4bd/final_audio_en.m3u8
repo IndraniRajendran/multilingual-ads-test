@@ -6,11 +6,11 @@
 
 ## --- CONTENT AUDIO 1 (Segments 0-2) ---
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_0.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_0.ts
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_1.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_1.ts
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_2.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_2.ts
 
 ## --- AD AUDIO (English) ---
 #EXT-X-DISCONTINUITY
@@ -24,9 +24,9 @@ https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-
 
 ## --- CONTENT AUDIO 2 (Resume from Segment 3) ---
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_3.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_3.ts
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_4.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_4.ts
 #EXTINF:3.989,
-https://indranirajendran.github.io/multilingual-ads-test/content/audio/1_stereo_128000/hls/segment_5.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/audio/1_stereo_128000/hls/segment_5.ts
 #EXT-X-ENDLIST
