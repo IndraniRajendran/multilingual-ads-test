@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+
+## CONTENT PART (Silent or English placeholder)
+#EXTINF:10.0,
+https://example.com/path/to/content_audio_en_seg1.ts
+
+## --- AD PART (Tamil) ---
+#EXT-X-DISCONTINUITY
+#EXTINF:30.0,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta.m3u8
+#EXT-X-DISCONTINUITY
+
+## CONTENT PART RESUME
+#EXTINF:10.0,
+https://example.com/path/to/content_audio_en_seg2.ts
