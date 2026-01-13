@@ -1,0 +1,31 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-PLAYLIST-TYPE:VOD
+
+## --- 1 MINUTE OF CONTENT ---
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_0.ts
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_1.ts
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_2.ts
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_3.ts
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_4.ts
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_5.ts
+
+## --- YOUR MULTILINGUAL AD START ---
+#EXT-X-DISCONTINUITY
+## Important: Point to the video sub-manifest from your ad
+#EXTINF:30.0,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/stream.m3u8
+#EXT-X-DISCONTINUITY
+
+## --- RESUME CONTENT ---
+#EXTINF:10.0,
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny/1080p/seg_6.ts
+#EXT-X-ENDLIST
