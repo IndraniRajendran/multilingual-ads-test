@@ -4,7 +4,7 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXTINF:8.333333,
-video_segment_000.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/video_segment_000.ts
 #EXTINF:5.533333,
-video_segment_001.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/video_segment_001.ts
 #EXT-X-ENDLIST

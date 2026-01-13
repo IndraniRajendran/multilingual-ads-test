@@ -4,9 +4,9 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXTINF:6.016000,
-audio_ta_segment_000.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_000.ts
 #EXTINF:6.016000,
-audio_ta_segment_001.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_001.ts
 #EXTINF:0.802667,
-audio_ta_segment_002.ts
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_ta_segment_002.ts
 #EXT-X-ENDLIST
