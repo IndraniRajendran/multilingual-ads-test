@@ -2,10 +2,12 @@
 #EXT-X-VERSION:6
 #EXT-X-INDEPENDENT-SEGMENTS
 
-## Use a clean GROUP-ID
+## --- AUDIO GROUPS ---
+## These MUST be absolute URLs to ensure Safari finds them during the transition
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="subs",LANGUAGE="en",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/final_audio_en.m3u8"
 #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="subs",LANGUAGE="ta",NAME="Tamil",DEFAULT=NO,AUTOSELECT=YES,URI="https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/final_audio_ta.m3u8"
 
-## The CODECS string must include both Video (avc1) and Audio (mp4a)
+## --- VIDEO STREAM ---
+## The AUDIO="subs" attribute forces Safari to use the external audio manifests
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2",AUDIO="subs"
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/final_video.m3u8
