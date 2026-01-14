@@ -13,8 +13,14 @@ https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fi
 
 ## --- AD AUDIO (Tamil) ---
 ## Ensure these URLs are 100% correct in your GitHub
-#EXTINF:13.86,
+#EXTINF:6.016,
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_000.ts
+
+#EXTINF:6.016,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_001.ts
+
+#EXTINF:0.803,
+https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/audio_en_segment_002.ts
 
 #EXT-X-DISCONTINUITY
 
