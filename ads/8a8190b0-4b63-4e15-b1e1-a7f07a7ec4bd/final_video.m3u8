@@ -4,22 +4,11 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 
-<<<<<<< Updated upstream
-#EXT-X-DISCONTINUITY-SEQUENCE:1
-
-## --- CONTENT (~14s) ---
-#EXT-X-DISCONTINUITY
-#EXTINF:10.0,
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts
-#EXTINF:4.0,
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear0/fileSequence0.ts
-=======
 ## --- CONTENT START ---
 #EXTINF:10.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts
 #EXTINF:2.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence1.ts
->>>>>>> Stashed changes
 
 #EXT-X-DISCONTINUITY
 
@@ -31,16 +20,10 @@ https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-
 
 #EXT-X-DISCONTINUITY
 
-<<<<<<< Updated upstream
-## --- CONTENT RESUME (10s) ---
-#EXTINF:10.0,
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence1.ts
-=======
 ## --- RESUME CONTENT ---
 #EXTINF:10.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence2.ts
 #EXTINF:10.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence3.ts
->>>>>>> Stashed changes
 
 #EXT-X-ENDLIST
