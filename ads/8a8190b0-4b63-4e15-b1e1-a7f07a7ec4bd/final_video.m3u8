@@ -4,11 +4,9 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 
-## --- ONLINE CONTENT SECTION (Apple BipBop, ~12s) ---
+## --- CONTENT (10s) ---
 #EXTINF:10.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts
-#EXTINF:10.0,
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence1.ts
 
 #EXT-X-DISCONTINUITY
 
@@ -17,5 +15,15 @@ https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fi
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/video_segment_000.ts
 #EXTINF:5.533333,
 https://indranirajendran.github.io/multilingual-ads-test/ads/8a8190b0-4b63-4e15-b1e1-a7f07a7ec4bd/video_segment_001.ts
+
+#EXT-X-DISCONTINUITY
+
+## --- CONTENT RESUME (10s) ---
+#EXTINF:10.0,
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence1.ts
+
+#EXTINF:10.0,
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence1.ts
+
 
 #EXT-X-ENDLIST
