@@ -4,7 +4,10 @@
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
 
+#EXT-X-DISCONTINUITY-SEQUENCE:1
+
 ## --- CONTENT (~14s) ---
+#EXT-X-DISCONTINUITY
 #EXTINF:10.0,
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts
 #EXTINF:4.0,
